@@ -1,0 +1,23 @@
+<div id="app">
+  <div class="title">Alex's List</div>
+  <ul>
+    <li class="item">
+      <div class="itemName">Buy an apple</div>
+      <div class="itemNotes">For Christmas</div>
+      <button>Check</button>
+    </li>
+    <li class="item">
+      <div class="itemName">Read Logto get-started document</div>
+      <div class="itemNotes">
+        <span>Doc link:</span>
+        <a href="https://docs.logto.io/docs/tutorials/get-started" target="_blank"> Get started </a>
+      </div>
+      <button>Check</button>
+    </li>
+  </ul>
+  <form action="/items" method="post">
+    <div>itemName: <input name="itemName" /></div>
+    <div>itemNotes: <input name="itemNotes" /></div>
+    <button type="submit">Add</button>
+  </form>
+</div>
